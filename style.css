@@ -1,0 +1,44 @@
+* {
+}
+
+
+#ulTasks li.done {
+    text-decoration: line-through;
+    color: #6c757d;    
+}
+
+
+
+h1 
+{
+
+    margin: 50px;
+    margin-top: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: beige;
+    color:rgb(124 52 255);
+    animation: glow 2s infinite alternate;
+}
+.inbox {
+    margin-top: 20px;
+}
+@keyframes glow {
+    0% {
+        color: rgb(255 52 52);
+    }
+    20% {
+        color: rgb(230 255 52);
+    }
+    40% {
+        color: rgb(125 234 248);
+    }
+    60% {
+        color: rgb(71 255 52);
+    }
+    80% {
+        color: rgb(124 52 255);
+    }
+    100% {
+        color: rgb(255 52 171);
+    }
+}
